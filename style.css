@@ -14,10 +14,69 @@
     background-color: antiquewhite;
     height: 90vh;
 }
+.logo-image{
+    width: 20%;
+    background-color:transparent;
+    height: 40px;
+    border-image: auto;
+}
+.logo-image>image{
+    block-size: auto;
+}
+.hero-main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.daysTracker{
+    margin-left: 10px;
+    height: 100vh;
+    width:77%;
+    background-color: bisque;
+    background-image:url("background-image.avif");
+    background-size: cover;
+    /* filter: blur(2px);
+    -webkit-filter: blur(2px); */
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: flex-start;
+}
+.rozaDay-tracker{
+    width: 50%;
+    height: 20%;
+    margin-top: 2%;
+    border: 2px solid grey;
+    overflow: hidden;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.rozaDay-tracker>img{
+    width: 150px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode:color-burn;
+}
+.rozatime-tracker{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.roza-clock{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color:#e7e7e7;
+
+}
 .dropper span{
     padding-top: 15px;
     color: white;
-    
 }
 #drag_indicator{
     font-size: x-large;
@@ -25,6 +84,7 @@
     cursor: pointer;
 }
 .head-nav{
+    display: flex;
     margin-top: 10px;
     width: 98vw;
     height: 10%;
@@ -38,6 +98,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .display-off{
     display:none !important;
