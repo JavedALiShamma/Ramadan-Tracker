@@ -15,4 +15,5 @@ if(dateToday.getDate()==24 && (dateToday.getMonth()+1)==2){
     let rozaNumber=document.getElementById("roza-number");
     rozaNumber.innerHTML="2";
 }
+// Problem is here we need to add the timmer for the time left in sehri
 
