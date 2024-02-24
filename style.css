@@ -1,0 +1,44 @@
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.maincontainer{
+    width: 100vw;
+    height: 100vh;
+}
+.days-col{
+    /* margin-top: 3%; */
+    width: 20%;
+    background-color: antiquewhite;
+    height: 90vh;
+}
+.dropper span{
+    padding-top: 15px;
+    color: white;
+    
+}
+#drag_indicator{
+    font-size: x-large;
+    padding: 1%;
+    cursor: pointer;
+}
+.head-nav{
+    margin-top: 10px;
+    width: 98vw;
+    height: 10%;
+    background-color:black ;
+}
+.day-sec{
+    border: 1px solid grey;  
+    width: 100%;
+    padding: 5px;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display-off{
+    display:none !important;
+}
